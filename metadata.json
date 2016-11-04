@@ -1,0 +1,24 @@
+{
+  "name": "silverstripe-sera",
+  "version": "1.0.0",
+  "author": "SilverStripe Ltd",
+  "license": "BSD-3-Clause",
+  "summary": "Sera",
+  "source": "https://github.com/silverstripe/puppet-sera",
+  "dependencies": [
+    {
+      "name": "puppet/archive",
+      "version_requirement": "> 2.0.0"
+    }
+  ],
+  "project_page": "https://github.com/silverstripe/puppet-sera",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+		  "8"
+	  ]
+    }
+  ],
+  "tags": ["sera"]
+}
