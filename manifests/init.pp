@@ -19,17 +19,17 @@ class sera (
 		creates      => "/usr/local/bin/sera",
 	}
 	
-	file { "/usr/local/bin/sera": 
+	file { "/usr/local/bin/sera":
 		owner => "root",
 		group => "root",
-		mode => 0755;
+		mode => "0755",
 	}
 	
 	file { "/etc/sera.json":
 		content => template("sera/sera.json.erb"),
 		owner => "root",
 		group => "root",
-		mode => 0644;
+		mode => "0644",
 	}
 
 }
