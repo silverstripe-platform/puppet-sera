@@ -6,7 +6,7 @@ class sera (
 ) {
 	archive { "/tmp/sera_${version}_linux_amd64.tar.gz":
 		provider     => 'curl',
-		source       => "https://github.com/silverstripeltd/sera/releases/download/${version}/sera_${version}_linux_amd64.tar.gz",
+		source       => "https://github.com/silverstripe-platform/sera/releases/download/${version}/sera_${version}_linux_amd64.tar.gz",
 		cleanup      => true,
 		extract      => true,
 		extract_path => "/usr/local/bin",
